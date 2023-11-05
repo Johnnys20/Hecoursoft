@@ -20,26 +20,46 @@
 
 /* navbar */
 
-.navbar__header{
-    display: flex;
-    background-color: rgb(247, 242, 242);
-    height: 80px;
-    justify-content: center;
-    align-items: center;
 
+.bg-personalizado{
+    background-color:rgba(238, 234, 234, 0.541);
 }
 
-.navbar__header ul li{
-    display: inline-block;
-    list-style: none;
-
+.collapse a{
+    margin: 0px 150px;
 }
 
-.navbar__header ul li a{
-    font-size: 19px;
-    text-decoration: none;
-    color: rgb(53, 50, 50);
-    margin: 150px;
-    font-weight: 200;
+.collapse ul li a{
+    color: rgb(54, 53, 53);
+    font-size: 17px;
 }
+
+.collapse ul li a:hover{
+    color: #002E4C;
+    font-weight: 300;
+}
+
+.carousel-item{
+    height: 10px;
+    width: 100%;
+}
+
+.color_1{
+    height: 200px;
+    width: 100%;
+    background-color: #CB8802;
+}
+
+.color_2{
+    height: 200px;
+    width: 100%;
+    background-color: #E09500;
+}
+
+.color_3{
+    height: 200px;
+    width: 100%;
+    background-color: #FFAA00;
+}
+
 
