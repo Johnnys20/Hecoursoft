@@ -1,13 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
-body{
-    font-family: 'Poppins', sans-serif;
+*{
+    font-family: 'Roboto', sans-serif;
 }
 
-.navbar-brand img{
+
+.header__brand{
+    display: flex;
+    background-color: #002E4C;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__brand a img{
     width: 200px;
 }
 
-/* header */
+/* navbar */
+
+.navbar__header{
+    display: flex;
+    background-color: rgb(247, 242, 242);
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar__header ul li{
+    display: inline-block;
+    list-style: none;
+
+}
+
+.navbar__header ul li a{
+    font-size: 19px;
+    text-decoration: none;
+    color: rgb(53, 50, 50);
+    margin: 150px;
+    font-weight: 200;
+}
 
